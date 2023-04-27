@@ -20,7 +20,7 @@ body {
     top: 0;
     left: -200px;
     width: 200px;
-    z-index: 1000;
+    z-index: 1001;
     min-height: 100vh;
     transition: .3s;
     border: 1px solid #eee;
