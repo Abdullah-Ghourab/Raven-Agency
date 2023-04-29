@@ -20,7 +20,7 @@ body {
     top: 0;
     left: -200px;
     width: 200px;
-    z-index: 1000;
+    z-index: 2000;
     min-height: 100vh;
     transition: .3s;
     border: 1px solid #eee;
@@ -148,9 +148,12 @@ body {
   cursor: default;
   pointer-events: none;
   display: none;
+  
 }
 .nav-bullets .bullet:hover .tooltip{
   display: block;
+  z-index: 20000;
+  position: absolute;
 }
 .nav-bullets .bullet .tooltip::before{
   content: '';
@@ -709,6 +712,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   position: relative;
+  z-index: 3;
 }
 .contact .overlay {
   position: absolute;
