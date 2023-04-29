@@ -136,7 +136,7 @@ body {
   border-radius: 50%;
   position: relative;
 }
-.nav-bullets .bullet .tooltip{
+.nav-bullets .bullet .tooltipz{
   background-color: var(--main-costom-color);
   width: 120px;
   color: whitesmoke;
@@ -150,12 +150,12 @@ body {
   display: none;
   
 }
-.nav-bullets .bullet:hover .tooltip{
+.nav-bullets .bullet:hover .tooltipz{
   display: block;
   z-index: 20000;
   position: absolute;
 }
-.nav-bullets .bullet .tooltip::before{
+.nav-bullets .bullet .tooltipz::before{
   content: '';
   border-style: solid;
   border-width: 10px;
